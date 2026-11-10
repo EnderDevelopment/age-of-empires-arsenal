@@ -1,0 +1,12 @@
+name: WarRelics
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  arsenal:
+    description: Browse or receive historical war equipment.
+    usage: /arsenal [list|give <player> <item>]
+    permission: warrelics.arsenal
+permissions:
+  warrelics.arsenal:
+    default: true
